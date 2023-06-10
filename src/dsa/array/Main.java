@@ -1,3 +1,5 @@
+package dsa.array;
+
 public class Main {
     public static int findClosestToAverage(int[] array) {
         if (array.length == 0) {
