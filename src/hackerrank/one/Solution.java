@@ -1,4 +1,4 @@
-package hackerrank.sixDays.one;
+package hackerrank.one;
 
 import java.io.*;
 import java.math.BigDecimal;
