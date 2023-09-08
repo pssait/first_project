@@ -1,4 +1,4 @@
-package hackerrank.three;
+package hackerrank.day1.three;
 
 import java.io.*;
 import java.time.LocalTime;

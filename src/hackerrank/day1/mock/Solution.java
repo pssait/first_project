@@ -1,4 +1,4 @@
-package hackerrank.mock1;
+package hackerrank.day1.mock;
 
 import java.io.*;
 import java.util.*;

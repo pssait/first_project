@@ -1,4 +1,4 @@
-package hackerrank.two;
+package hackerrank.day1.two;
 
 import java.io.*;
 import java.math.*;
