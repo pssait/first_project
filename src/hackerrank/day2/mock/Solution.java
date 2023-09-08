@@ -20,9 +20,16 @@ class Result {
      */
 
     public static int flippingMatrix(List<List<Integer>> matrix) {
-    // Write your code here
+
         int sum = 0;
-        for(int i = 0; i < matrix.size(); i++) sum += matrix.get(i).stream().max(Integer::compareTo).get();
+        int n = matrix.size();
+        for(int i = 0; i < n/2; i++) {
+            for(int j = 0; j < matrix.get(i).size()/2; j++) {
+                List<Integer> currentRow = matrix.get(i);
+                List<Integer> oppRow = matrix.get(n-i-1);
+                sum += Math.max(Math.max(currentRow.get(j),currentRow.get(n-j-1)),Math.max(oppRow.get(j),oppRow.get(n-j-1)));
+            }
+        }
         return sum;
     }
 
