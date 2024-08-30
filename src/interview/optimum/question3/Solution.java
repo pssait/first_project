@@ -1,4 +1,4 @@
-package interview2024.optimum.question1;
+package interview.optimum.question1;
 
 public class Solution {
     // Nth non repeatable character

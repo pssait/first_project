@@ -1,4 +1,4 @@
-package interview2024.htc;
+package interview.htc;
 
 public class SolutionMain {
 
