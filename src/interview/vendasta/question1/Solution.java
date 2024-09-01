@@ -1,4 +1,4 @@
-package interview24.vendasta.question1;
+package interview.vendasta.question1;
 
 import java.util.Scanner;
 

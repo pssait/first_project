@@ -1,4 +1,4 @@
-package interview24.vendasta.question2;
+package interview.vendasta.question2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
