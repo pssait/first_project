@@ -1,4 +1,4 @@
-package interview24.mphasis.question2;
+package interview24.other.mphasis.question2;
 
 import java.util.*;
 import java.util.stream.Stream;
@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 public class Solution {
     public static void main(String[] args) {
         String a = "Sulaiman";
-        int len = a.length();
         HashMap<Character,Integer> counter = new HashMap<>();
         Stream<Character> s = a.chars().mapToObj(e -> (char)e);
         s.forEach(c -> {
